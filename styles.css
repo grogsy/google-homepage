@@ -2,10 +2,42 @@ html, body{
 	height: 100%;
 }
 
+#navicon{
+	position: relative;
+	top: 5px;
+	opacity: .55;
+}
+
+#navbutton{
+	background-color: #4285f4;
+	color: white;
+	
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+
+	padding: 5px 15px;
+	border: 1px solid #4285f4;
+}
+
+#topnav{
+	text-align: right;
+}
+
+#topnav li{
+	display: inline-block;
+
+	margin: 5px;
+
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
 #logo{
 	display: block;
 	margin: auto;
 }
+
 #searchbar{
 	background: transparent;
 }
@@ -27,6 +59,10 @@ html, body{
 	border: 1px solid #c6c6c6;
 	border-radius: 2px;
 	cursor: pointer;
+}
+
+.buttons{
+	margin-top: 30px;
 }
 
 #searchbar, .buttons{
