@@ -1,10 +1,12 @@
 html, body{
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 #navicon{
 	position: relative;
-	top: 5px;
+	top: 8px;
 	opacity: .55;
 }
 
@@ -16,7 +18,7 @@ html, body{
 	font-family: arial, sans-serif;
 	font-weight: bold;
 
-	padding: 5px 15px;
+	padding: 5px 10px;
 	border: 1px solid #4285f4;
 }
 
@@ -27,6 +29,8 @@ html, body{
 #topnav li{
 	display: inline-block;
 
+	position: relative;
+	right: 7px;
 	margin: 5px;
 
 	font-family: arial, sans-serif;
@@ -40,6 +44,12 @@ html, body{
 
 #searchbar{
 	background: transparent;
+}
+
+#formsection{
+	display: block;
+	position: relative;
+	top: 6px;
 }
 
 #inputform{
@@ -72,5 +82,47 @@ html, body{
 
 .centered{
 	position: relative;
-	top: 25%;
+	top: 15%;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+
+	background-color: #f2f2f2;
+	border: 1px solid #c6c6c6;
+
+	padding-top: 12px;
+}
+
+#footer li{
+	font-family: arial, sans-serif;
+	font-size: small;
+	opacity: .55;
+
+	position: relative;
+	bottom: 5px;
+	margin: 10px;
+}
+
+#left-footer{
+	display: inline;
+	float: left;
+}
+#left-footer li{
+	display: inline-block;
+	text-align: left;
+}
+
+#right-footer{
+	position: relative;
+	right: 10px;
+
+	display: inline;
+	float: right;
+}
+#right-footer li{
+	display: inline-block;
+	text-align: right;
 }
