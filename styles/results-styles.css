@@ -16,6 +16,8 @@
 	font-weight: normal;
 	
 	text-align: left;
+
+	margin-top: -10px;
 }
 
 .description{
@@ -26,4 +28,10 @@
 	font-size: small;
 	
 	text-align: left;
+
+	margin-top: -10px;
+}
+
+.result{
+	
 }
