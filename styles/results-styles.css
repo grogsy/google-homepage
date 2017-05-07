@@ -1,0 +1,29 @@
+.result-name{
+	font-weight: normal;
+	font-size: 18px;
+	font-family: 'Roboto', arial, sans-serif;
+	color: #1a0dab;
+
+	line-height: 1.2;
+	text-align: left;
+}
+
+.citation{
+	font-size: 14px;
+	color: #006621;
+	font-style: normal;
+	font-family: 'Roboto', arial, sans-serif;
+	font-weight: normal;
+	
+	text-align: left;
+}
+
+.description{
+	line-height: 1.4;
+	color: #545454;
+	font-family: 'Roboto', arial, sans-serif;
+	font-weight: normal;
+	font-size: small;
+	
+	text-align: left;
+}
