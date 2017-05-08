@@ -1,3 +1,25 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+#top{
+	height: 20%;
+}
+#content {
+	position: relative;
+	left: 125px;
+
+	width: 35%;
+}
+#footer{
+	height: 20%;
+}
+
+.result{
+	margin-top: 30px;
+}
+
 .result-name{
 	font-weight: normal;
 	font-size: 18px;
@@ -23,19 +45,30 @@
 .description{
 	line-height: 1.4;
 	color: #545454;
-	font-family: 'Roboto', arial, sans-serif;
+	
 	font-weight: normal;
 	font-size: small;
-	
+	font-family: 'Roboto', arial, sans-serif;	
 	text-align: left;
 
-	
+	/*set the width of the div to some max value, and make words wrap to next line when hits the end and word is too long??*/
+	word-wrap: break-word;
+	width: 500px;
 }
 
-#content{
-	overflow: hidden;
+.date{
+	color: #808080;
 }
+
 
 .result p{
 	margin-top: -12px;
+}
+
+#related-searches h2{
+	font-family: 'Roboto', arial, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: #222;
 }
