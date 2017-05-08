@@ -1,11 +1,90 @@
 body, html{
 	height: 100%;
 	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', arial, sans-serif;
 }
 
 #top{
-	height: 20%;
+	height: 13%;
+
+	background-color: #FAFAFA;
+	border: 1px solid #c6c6c6;
 }
+
+#logo{
+	display: inline;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+#searchbar{
+	display: inline;
+	margin-left: 15px;
+}
+#searchbar input{
+	background-color: white;
+	
+	border: medium none;
+}
+
+
+#topleft-side{
+	display: block;
+	float: left;
+}
+
+#topleft-under{
+	margin-left: 90px;
+	margin-top: 25px;
+}
+
+#topleft-under li{
+	display: inline;
+	
+	font-family: 'Roboto',arial,sans-serif;
+	font-size: 13px;
+	color: #666;
+
+	margin: 10px;
+}
+
+.bear-right li{
+	margin-left: 30px;
+}
+
+
+#topright-side{
+	float: right;
+}
+#topright-side .navitem{
+	display: block;
+	float: right;
+
+	position: relative;
+	margin: 8px;
+}
+
+#navicon{
+	opacity: .55;
+}
+
+#navbutton{
+	background-color: #4285f4;
+	color: white;
+	
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+
+	padding: 5px 10px;
+	border: 1px solid #4285f4;
+
+	position: relative;
+	bottom: 5px;
+}
+
 #content {
 	position: relative;
 	left: 125px;
@@ -38,10 +117,7 @@ body, html{
 	font-weight: normal;
 	
 	text-align: left;
-
-
 }
-
 .description{
 	line-height: 1.4;
 	color: #545454;
