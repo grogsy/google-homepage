@@ -17,7 +17,7 @@
 	
 	text-align: left;
 
-	margin-top: -10px;
+
 }
 
 .description{
@@ -29,9 +29,13 @@
 	
 	text-align: left;
 
-	margin-top: -10px;
+	
 }
 
-.result{
-	
+#content{
+	overflow: hidden;
+}
+
+.result p{
+	margin-top: -12px;
 }
