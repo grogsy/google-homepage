@@ -5,12 +5,16 @@ body, html{
 	padding: 0;
 	font-family: 'Roboto', arial, sans-serif;
 }
-
 #top{
 	height: 13%;
-
+}
+#footer{
+	height: 9%;
+}
+#top, #footer{
 	background-color: #FAFAFA;
 	border: 1px solid #c6c6c6;
+	
 }
 
 #logo{
@@ -33,6 +37,7 @@ body, html{
 #topleft-side{
 	display: block;
 	float: left;
+	width: 50%;
 }
 
 #topleft-under{
@@ -51,13 +56,14 @@ body, html{
 }
 
 .bear-right li{
-	margin-left: 30px;
+	position: relative;
+	left: 20px;	
 }
 
 
 #topright-side{
 	float: right;
-	width: 900px;
+	width: 50%;
 }
 #topright-side .navitem{
 	display: block;
@@ -92,15 +98,18 @@ body, html{
 
 	width: 35%;
 }
-#footer{
-	height: 20%;
-}
 
 .result{
 	margin-top: 30px;
 }
 
-.result-name{
+#site-dir{
+	border-spacing: 30px 10px;
+	margin-top: -10px;
+	margin-bottom: -20px;
+}
+
+.result-name, #site-dir h2{
 	font-weight: normal;
 	font-size: 18px;
 	font-family: 'Roboto', arial, sans-serif;
@@ -119,7 +128,17 @@ body, html{
 	
 	text-align: left;
 }
+
 .description{
+	/*set the width of the div to some max value, and make words wrap to next line when hits the end and word is too long??*/
+	word-wrap: break-word;
+	width: 500px;
+}
+
+#site-dir p{
+	margin-top: -12px;
+}
+.description, #site-dir p{
 	line-height: 1.4;
 	color: #545454;
 	
@@ -127,10 +146,6 @@ body, html{
 	font-size: small;
 	font-family: 'Roboto', arial, sans-serif;	
 	text-align: left;
-
-	/*set the width of the div to some max value, and make words wrap to next line when hits the end and word is too long??*/
-	word-wrap: break-word;
-	width: 500px;
 }
 
 .date{
@@ -148,4 +163,36 @@ body, html{
 	font-size: 18px;
 	line-height: 18px;
 	color: #222;
+}
+
+#related-table{
+	color: #1a0dab;
+	font-weight: normal;
+	font-size: small;
+	font-family: 'Roboto', arial, sans-serif;	
+	
+	border-spacing: 15px 10px;
+}
+
+#footer{
+	font-size: small;
+	font-family: 'Roboto', arial, sans-serif;
+	font-weight: normal;
+	color: #9e9e9e;
+}
+
+.footer-options{
+	display: inline-block;
+	color: #9e9e9e;
+	margin-left: 15px;
+}
+#circle{
+	border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 6px 4px 9px 0;
+    vertical-align: middle;
+    width: 10px;
+
+    background: #9e9e9e;
 }
